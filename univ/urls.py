@@ -20,5 +20,5 @@ from univ_app import views
 
 urlpatterns = [
     path('admin_tyakyumyou/', admin.site.urls),
-    path("", views.Index.as_view(), name="index"),
+    path("University_Naniritsu_Judge_Kun", views.Index.as_view(), name="index"),
 ]
